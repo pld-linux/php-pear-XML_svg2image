@@ -21,14 +21,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Converts a SVG file to a PNG/JPEG image with the help of apache-batik
-(java-program), needs therefore a php with ext/java compiled-in and
+(java-program), needs therefore a PHP with ext/java compiled-in and
 the batik files from http://xml.apache.org/batik/.
 
 In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Klasa ta przekszta³ca pliki SVG do obrazków PNG/JPEG przy pomocy
-programu apache-batik (w Javie), dlatego wymaga php z rozszerzeniem
+programu apache-batik (w Javie), dlatego wymaga PHP z rozszerzeniem
 java i plików batik z http://xml.apache.org/batik/.
 
 Ta klasa ma w PEAR status: %{_status}.
