@@ -3,8 +3,8 @@
 %define         _subclass       svg2image
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_pearname} - Converts a svg file to a png/jpeg image
-Summary(pl):	%{_pearname} - konwersja plików svg do png/jpeg
+Summary:	%{_pearname} - Converts a SVG file to a PNG/JPEG image
+Summary(pl):	%{_pearname} - konwersja plików SVG do obrazków PNG/JPEG
 Name:		php-pear-%{_pearname}
 Version:	0.1
 Release:	1
@@ -18,11 +18,18 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Converts a svg file to a png/jpeg image with the help of apache-batik
+Converts a SVG file to a PNG/JPEG image with the help of apache-batik
 (java-program), needs therefore a php with ext/java compiled-in and
-the batik files from http://xml.apache.org/batik
+the batik files from http://xml.apache.org/batik/.
 
 This class has in PEAR status: %{_status}.
+
+%description -l pl
+Klasa ta przekszta³ca pliki SVG do obrazków PNG/JPEG przy pomocy
+programu apache-batik (w Javie), dlatego wymaga php z rozszerzeniem
+java i plików batik z http://xml.apache.org/batik/.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
