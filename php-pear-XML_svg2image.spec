@@ -1,9 +1,10 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          XML
-%define         _subclass       svg2image
+%define		_class		XML
+%define		_subclass	svg2image
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_pearname} - Converts a SVG file to a PNG/JPEG image
+
+Summary:	%{_pearname} - converts a SVG file to a PNG/JPEG image
 Summary(pl):	%{_pearname} - konwersja plików SVG do obrazków PNG/JPEG
 Name:		php-pear-%{_pearname}
 Version:	0.1
