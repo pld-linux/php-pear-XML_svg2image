@@ -24,7 +24,7 @@ Converts a SVG file to a PNG/JPEG image with the help of apache-batik
 (java-program), needs therefore a php with ext/java compiled-in and
 the batik files from http://xml.apache.org/batik/.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Klasa ta przekszta³ca pliki SVG do obrazków PNG/JPEG przy pomocy
