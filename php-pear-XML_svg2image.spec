@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - converts a SVG file to a PNG/JPEG image
-Summary(pl):	%{_pearname} - konwersja plik體 SVG do obrazk體 PNG/JPEG
+Summary(pl.UTF-8):   %{_pearname} - konwersja plik贸w SVG do obrazk贸w PNG/JPEG
 Name:		php-pear-%{_pearname}
 Version:	0.1
 Release:	4
@@ -28,10 +28,10 @@ the batik files from http://xml.apache.org/batik/.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Klasa ta przekszta砪a pliki SVG do obrazk體 PNG/JPEG przy pomocy
+%description -l pl.UTF-8
+Klasa ta przekszta艂ca pliki SVG do obrazk贸w PNG/JPEG przy pomocy
 programu apache-batik (w Javie), dlatego wymaga PHP z rozszerzeniem
-java i plik體 batik z http://xml.apache.org/batik/.
+java i plik贸w batik z http://xml.apache.org/batik/.
 
 Ta klasa ma w PEAR status: %{_status}.
 
