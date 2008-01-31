@@ -8,7 +8,7 @@ Summary:	%{_pearname} - converts a SVG file to a PNG/JPEG image
 Summary(pl.UTF-8):	%{_pearname} - konwersja plików SVG do obrazków PNG/JPEG
 Name:		php-pear-%{_pearname}
 Version:	0.1
-Release:	4
+Release:	5
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
