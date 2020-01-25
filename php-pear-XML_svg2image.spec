@@ -1,6 +1,5 @@
 # NOTE
 # - imho it requires java ext, it is not optional? making it php4-only package
-%include	/usr/lib/rpm/macros.php
 %define		_status		beta
 %define		_pearname	XML_svg2image
 Summary:	%{_pearname} - converts a SVG file to a PNG/JPEG image
